@@ -91,12 +91,6 @@ func _init() -> void:
 	overwrite = preload("res://mods-unpacked/AnfrayL-Gratata/overwrites/entities/units/enemies/looter/looter_icon.png")
 	overwrite.take_over_path("res://entities/units/enemies/looter/looter-icon.png")
 
-	# pursuer
-	overwrite = preload("res://mods-unpacked/AnfrayL-Gratata/overwrites/entities/units/enemies/pursuer/pursuer.png")
-	overwrite.take_over_path("res://entities/units/enemies/pursuer/pursuer.png")
-	overwrite = preload("res://mods-unpacked/AnfrayL-Gratata/overwrites/entities/units/enemies/pursuer/pursuer_icon.png")
-	overwrite.take_over_path("res://entities/units/enemies/pursuer/pursuer-icon.png")
-
 	# slasher
 	overwrite = preload("res://mods-unpacked/AnfrayL-Gratata/overwrites/entities/units/enemies/slasher/slasher.png")
 	overwrite.take_over_path("res://entities/units/enemies/slasher/slasher.png")
