@@ -19,9 +19,9 @@ func _init() -> void:
 
 func install_script_extensions() -> void:
 	extensions_dir_path = mod_dir_path.plus_file("extensions")
-	#ModLoaderMod.install_script_extension(
-	#	extensions_dir_path.plus_file("entities/units/movement_behaviors/player_movement_behavior.gd")
-	#	)
+	ModLoaderMod.install_script_extension(
+		"res://mods-unpacked/AnfrayL-Gratata/overwrites/entities/units/enemies/spawner/spawner.gd"
+		)
 	#ModLoaderMod.install_script_extension(
 	#	extensions_dir_path.plus_file("entities/units/player/player.gd")
 	#	)

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/baby_spawn2.mp3-ca6454323436c8730ec66ab72baf38cd.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/AnfrayL-Gratata/overwrites/entities/units/enemies/spawner/Baby_spawn/baby_spawn2.mp3"
+dest_files=[ "res://.import/baby_spawn2.mp3-ca6454323436c8730ec66ab72baf38cd.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

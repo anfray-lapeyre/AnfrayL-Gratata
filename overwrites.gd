@@ -9,6 +9,10 @@ func _init() -> void:
 	var overwrite
 	
 	# character
+	overwrite = preload("res://mods-unpacked/AnfrayL-Gratata/overwrites/singletons/utils.gd")
+	overwrite.take_over_path("res://singletons/utils.gd")
+	
+	# character
 	overwrite = preload("res://mods-unpacked/AnfrayL-Gratata/extensions/entities/units/player/player.tscn")
 	overwrite.take_over_path("res://entities/units/player/player.tscn")
 	
