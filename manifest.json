@@ -1,7 +1,7 @@
 {
 	"name": "Gratata",
 	"namespace": "AnfrayL",
-	"version_number": "0.1.0",
+	"version_number": "0.1.1",
 	"description": "Adds my own implementation of some gameplay elements",
 	"website_url": "https://www.linkedin.com/in/anfraylapeyre/",
 	"dependencies": [

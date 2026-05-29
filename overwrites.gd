@@ -7,6 +7,12 @@ func _init() -> void:
 	ModLoaderLog.info("Ready to overwrite!", ANFRAYL_GRATATA_LOG_NAME)
 	
 	var overwrite
+	
+	# character
+	overwrite = preload("res://mods-unpacked/AnfrayL-Gratata/extensions/entities/units/player/player.tscn")
+	overwrite.take_over_path("res://entities/units/player/player.tscn")
+	
+
 	# baby_alien
 	overwrite = preload("res://mods-unpacked/AnfrayL-Gratata/overwrites/entities/units/enemies/baby_alien/baby_alien.png")
 	overwrite.take_over_path("res://entities/units/enemies/baby_alien/baby_alien.png")
