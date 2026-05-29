@@ -11,7 +11,9 @@ offsets = PoolRealArray( 0.00248139, 0.260546, 0.424318, 0.610422, 0.712159 )
 colors = PoolColorArray( 0.303005, 0.701434, 0.93457, 1, 0.915516, 0.96381, 0.992069, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0 )
 
 [node name="EggsMaterialParticles" type="CPUParticles2D"]
+emitting = false
 amount = 3
+one_shot = true
 explosiveness = 1.0
 local_coords = false
 texture = ExtResource( 1 )
